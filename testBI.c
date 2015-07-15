@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "bigint.h"
+#include "bigint.c"
 
 int main()
 {
@@ -39,6 +39,9 @@ int main()
 	printf("\ngcd : ");
 	printlnBigInt(z);
 	
+	z=gcdBigInt(x,y);
+	printf("\nlcm : ");
+	printlnBigInt(z);
 	
 	free(z);
 	free(x);
