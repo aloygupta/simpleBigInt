@@ -3,6 +3,7 @@ The library can be used to deal with big integers (integers only, not floating p
 
 #License
 Copyright (c) 2014, Aloy Gupta
+
 All rights reserved.
 
 BSD 3-Clause License
